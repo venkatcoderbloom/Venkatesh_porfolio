@@ -3,12 +3,11 @@
     <div id="intro">
     <h1> Hey, there </h1>
     <h2> Thanks for interest !! </h2>
-    <h3> Venkatesh </h3>
     </div>
     <vue-particles
         color="#dedede"
         :particleOpacity="0.7"
-        :particlesNumber="130"
+        :particlesNumber="150"
         shapeType="polygon"
         :particleSize="4"
         linesColor="#dedede"
@@ -18,7 +17,7 @@
         :linesDistance="150"
         :moveSpeed="6"
         :hoverEffect="true"
-        hoverMode="repulse"
+        hoverMode="grab"
         :clickEffect="true"
         clickMode="push"
       >
